@@ -139,11 +139,7 @@ export default function LoginPage() {
             </Link>
           </p>
 
-          <div className="pt-3 border-t border-surface-border">
-            <p className="text-xs text-gray-400 text-center">
-              Demo credentials: <span className="font-mono text-gray-500">demo-manufacturer@lifekart.com / demo123</span>
-            </p>
-          </div>
+
         </form>
       </div>
     </div>

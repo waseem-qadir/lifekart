@@ -215,7 +215,7 @@ class GiftingService:
         from app.modules.users.models import User
         from app.modules.profiling.models import Member
         from app.modules.health.models import HealthProfile
-        import datetime
+
         user = await self.db.scalar(select(User).where(User.id == user_id))
         
         if not household:
@@ -242,7 +242,7 @@ class GiftingService:
                 household_id=household.id,
                 full_name=self_name,
                 family_relation="self",
-                date_of_birth=gift.beneficiary_dob if self_name == gift.beneficiary_name else datetime.date(1990, 1, 1)
+                date_of_birth=gift.beneficiary_dob if self_name == gift.beneficiary_name else date(1990, 1, 1)
             )
             self.db.add(self_member)
             await self.db.flush()

@@ -1,0 +1,164 @@
+[
+  {
+    "manufacturer_id": "a9e99505-887d-46a1-9d06-86af98e1d7ae",
+    "product_id": "f27f5610-27c2-4da6-a6d6-9062e923592e",
+    "30_day_forecast": 28.41,
+    "90_day_forecast": 85.22
+  },
+  {
+    "manufacturer_id": "a9e99505-887d-46a1-9d06-86af98e1d7ae",
+    "product_id": "940f3ab8-8e2b-467d-9912-878d28420242",
+    "30_day_forecast": 4.73,
+    "90_day_forecast": 14.2
+  },
+  {
+    "manufacturer_id": "a9e99505-887d-46a1-9d06-86af98e1d7ae",
+    "product_id": "4e3d255b-d7c6-4942-977f-e98eebcc1f2c",
+    "30_day_forecast": 69.09,
+    "90_day_forecast": 207.27
+  },
+  {
+    "manufacturer_id": "a9e99505-887d-46a1-9d06-86af98e1d7ae",
+    "product_id": "1bb0b525-d339-44a4-aabd-a5d716d0ae64",
+    "30_day_forecast": 0.47,
+    "90_day_forecast": 1.41
+  },
+  {
+    "manufacturer_id": "a9e99505-887d-46a1-9d06-86af98e1d7ae",
+    "product_id": "0c248f56-64e4-44d3-9dc7-70c6c659ce6e",
+    "30_day_forecast": 20.15,
+    "90_day_forecast": 60.45
+  },
+  {
+    "manufacturer_id": "a9e99505-887d-46a1-9d06-86af98e1d7ae",
+    "product_id": "cd617f74-90be-4f31-aaf3-ce1c7f121236",
+    "30_day_forecast": 0.95,
+    "90_day_forecast": 2.85
+  },
+  {
+    "manufacturer_id": "a9e99505-887d-46a1-9d06-86af98e1d7ae",
+    "product_id": "3f789db9-041b-441e-8e3f-de6a11c01702",
+    "30_day_forecast": 9.47,
+    "90_day_forecast": 28.4
+  },
+  {
+    "manufacturer_id": "a9e99505-887d-46a1-9d06-86af98e1d7ae",
+    "product_id": "16db5f01-d9b7-4da9-9f0e-f2859f8ab93a",
+    "30_day_forecast": 1.89,
+    "90_day_forecast": 5.67
+  },
+  {
+    "manufacturer_id": "a9e99505-887d-46a1-9d06-86af98e1d7ae",
+    "product_id": "012dad1b-0c45-40cd-83c6-1778b8c1ba6b",
+    "30_day_forecast": 13.39,
+    "90_day_forecast": 40.18
+  },
+  {
+    "manufacturer_id": "a9e99505-887d-46a1-9d06-86af98e1d7ae",
+    "product_id": "b025b831-489b-47a4-a13d-89e074144a14",
+    "30_day_forecast": 1.89,
+    "90_day_forecast": 5.67
+  },
+  {
+    "manufacturer_id": "a9e99505-887d-46a1-9d06-86af98e1d7ae",
+    "product_id": "ec73341c-3f17-4fb5-9b29-412b1c44fb70",
+    "30_day_forecast": 9.6,
+    "90_day_forecast": 28.8
+  },
+  {
+    "manufacturer_id": "a9e99505-887d-46a1-9d06-86af98e1d7ae",
+    "product_id": "ec76bdd3-6c77-41d7-8909-663f0e4ce4d8",
+    "30_day_forecast": 1.89,
+    "90_day_forecast": 5.67
+  },
+  {
+    "manufacturer_id": "a9e99505-887d-46a1-9d06-86af98e1d7ae",
+    "product_id": "be538704-8444-498b-98d8-0f80c32150b0",
+    "30_day_forecast": 0.15,
+    "90_day_forecast": 0.46
+  },
+  {
+    "manufacturer_id": "a9e99505-887d-46a1-9d06-86af98e1d7ae",
+    "product_id": "beabc4b0-6b9d-4cb1-a60c-8ed524f2647c",
+    "30_day_forecast": 0.47,
+    "90_day_forecast": 1.41
+  },
+  {
+    "manufacturer_id": "a9e99505-887d-46a1-9d06-86af98e1d7ae",
+    "product_id": "be1d714c-8944-413c-a00b-856559fa4998",
+    "30_day_forecast": 0.95,
+    "90_day_forecast": 2.85
+  },
+  {
+    "manufacturer_id": "a9e99505-887d-46a1-9d06-86af98e1d7ae",
+    "product_id": "2992355c-7dd6-4e27-a350-adda867c5370",
+    "30_day_forecast": 9.6,
+    "90_day_forecast": 28.8
+  },
+  {
+    "manufacturer_id": "a9e99505-887d-46a1-9d06-86af98e1d7ae",
+    "product_id": "7a8022ef-fd9e-4cad-ada3-45248a4723ba",
+    "30_day_forecast": 2.84,
+    "90_day_forecast": 8.52
+  },
+  {
+    "manufacturer_id": "a9e99505-887d-46a1-9d06-86af98e1d7ae",
+    "product_id": "db92d1bf-45c3-4e0c-9e46-b99fd42d0786",
+    "30_day_forecast": 0.95,
+    "90_day_forecast": 2.85
+  },
+  {
+    "manufacturer_id": "a9e99505-887d-46a1-9d06-86af98e1d7ae",
+    "product_id": "aa2c03e9-87b2-4a17-8a40-8735a4fb7317",
+    "30_day_forecast": 28.8,
+    "90_day_forecast": 86.4
+  },
+  {
+    "manufacturer_id": "a9e99505-887d-46a1-9d06-86af98e1d7ae",
+    "product_id": "051397bb-c318-48e3-a043-bafa7fe608d2",
+    "30_day_forecast": 9.6,
+    "90_day_forecast": 28.8
+  },
+  {
+    "manufacturer_id": "a9e99505-887d-46a1-9d06-86af98e1d7ae",
+    "product_id": "d7d37136-7d28-4d4a-b2b3-ca1544c04ab3",
+    "30_day_forecast": 0.95,
+    "90_day_forecast": 2.85
+  },
+  {
+    "manufacturer_id": "a9e99505-887d-46a1-9d06-86af98e1d7ae",
+    "product_id": "60c461fe-d95d-457e-a739-03dba8c48b06",
+    "30_day_forecast": 28.8,
+    "90_day_forecast": 86.4
+  },
+  {
+    "manufacturer_id": "a9e99505-887d-46a1-9d06-86af98e1d7ae",
+    "product_id": "765703a1-b560-473e-ba7b-4658ff389135",
+    "30_day_forecast": 14.2,
+    "90_day_forecast": 42.6
+  },
+  {
+    "manufacturer_id": "a9e99505-887d-46a1-9d06-86af98e1d7ae",
+    "product_id": "45818e9b-e36a-4b74-8f3f-342cdf55192a",
+    "30_day_forecast": 76.8,
+    "90_day_forecast": 230.4
+  },
+  {
+    "manufacturer_id": "a9e99505-887d-46a1-9d06-86af98e1d7ae",
+    "product_id": "437db97f-fe08-472d-bdae-5de95ef481b4",
+    "30_day_forecast": 0.32,
+    "90_day_forecast": 0.95
+  },
+  {
+    "manufacturer_id": "a9e99505-887d-46a1-9d06-86af98e1d7ae",
+    "product_id": "1cec9e77-4494-4e04-86d3-7a7493fe5a2c",
+    "30_day_forecast": 0.15,
+    "90_day_forecast": 0.46
+  },
+  {
+    "manufacturer_id": "a9e99505-887d-46a1-9d06-86af98e1d7ae",
+    "product_id": "ee058687-b147-4dfb-ae26-8205fa8b0634",
+    "30_day_forecast": 0.32,
+    "90_day_forecast": 0.95
+  }
+]

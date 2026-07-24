@@ -180,8 +180,15 @@ class LegacyService:
         self.db.add(activation)
 
         await self.db.commit()
-        await self.db.refresh(activation)
-        return activation
+        result = await self.db.execute(
+            select(LegacyActivation)
+            .options(
+                joinedload(LegacyActivation.successor_nominee),
+                joinedload(LegacyActivation.original_user)
+            )
+            .where(LegacyActivation.id == activation.id)
+        )
+        return result.scalar_one()
 
     async def verify_public_claim(self, data: PublicClaimRequest) -> LegacyActivation:
         result = await self.db.execute(select(User).where(User.email == data.deceased_email))
@@ -230,8 +237,15 @@ class LegacyService:
         self.db.add(activation)
 
         await self.db.commit()
-        await self.db.refresh(activation)
-        return activation
+        result = await self.db.execute(
+            select(LegacyActivation)
+            .options(
+                joinedload(LegacyActivation.successor_nominee),
+                joinedload(LegacyActivation.original_user)
+            )
+            .where(LegacyActivation.id == activation.id)
+        )
+        return result.scalar_one()
 
     async def get_pending_activations(self, status_filter: str = "pending_verification") -> list[LegacyActivation]:
         query = select(LegacyActivation).options(

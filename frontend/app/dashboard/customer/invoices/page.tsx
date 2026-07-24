@@ -59,11 +59,11 @@ function InvoiceCard({ inv }: { inv: Invoice }) {
             <div className="text-lg font-display font-extrabold">
               ₹{Number(inv.amount_total).toLocaleString('en-IN', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
             </div>
-            <span className={`text-xs font-bold uppercase ${
+            {/* <span className={`text-xs font-bold uppercase ${
               inv.status === 'paid' ? 'text-green-600' : 'text-gray-400'
             }`}>
               {inv.status}
-            </span>
+            </span> */}
           </div>
           
           {/* Download / View Bill Button */}
