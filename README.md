@@ -101,8 +101,11 @@ lifekart/
 
 ---
 
-## Quick Start
+## Quick Start (How to Run Locally)
 
+To run the complete LifeKart ecosystem locally, you will need to open **5 separate terminal windows** after installing dependencies.
+
+### Initial Setup (First Time Only)
 ```bash
 # Clone and navigate
 git clone <repo-url> && cd lifekart
@@ -110,25 +113,54 @@ git clone <repo-url> && cd lifekart
 # Backend setup
 cd backend
 cp .env.example .env
-# Edit .env with DATABASE_URL, SECRET_KEY, Stripe keys
-
-# Create virtual environment
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 
-# Start infrastructure
+# Start infrastructure (Postgres + Redis)
 docker compose up -d db redis
 
-# Run API
-uvicorn app.main:app --reload
-
 # Seed data
-python scripts/seed_superadmin.py   # superadmin@lifekart.com / SuperAdmin@123
-python scripts/seed_catalog.py      # 78 categories, 20 products, progression rules
+python scripts/seed_superadmin.py
+python scripts/seed_catalog.py
 
-# Frontend
+# Frontend setup
 cd ../frontend
-npm install && npm run dev
+npm install
+```
+
+### Starting the Ecosystem
+
+**Terminal 1: Frontend (Next.js)**
+```bash
+cd frontend
+npm run dev
+```
+
+**Terminal 2: Backend API (FastAPI)**
+```bash
+cd backend
+source .venv/bin/activate
+uvicorn app.main:app --reload
+```
+
+**Terminal 3: Celery Worker (Background Math Engine)**
+```bash
+cd backend
+source .venv/bin/activate
+celery -A app.tasks.celery_app worker
+```
+
+**Terminal 4: Celery Beat (CRON Scheduler)**
+```bash
+cd backend
+source .venv/bin/activate
+celery -A app.tasks.celery_app beat
+```
+
+**Terminal 5: Stripe Webhook Listener (Payments)**
+```bash
+cd backend
+stripe listen --forward-to localhost:8000/webhook/stripe
 ```
 
 Access API at `http://localhost:8000`, docs at `http://localhost:8000/docs`, frontend at `http://localhost:3000`.
